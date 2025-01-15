@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: blue; /* Синий фон */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: black; /* Черный шрифт */
+    margin: 0;
+}
+
+hr {
+    border: 1px solid black; /* Черта под заголовком */
+    margin: 10px 0; /* Отступы сверху и снизу */
+}
+
+.link-container {
+    display: flex;
+    justify-content: center; /* Центрируем ссылки по горизонтали */
+    margin-top: 50px;
+}
+
+.link {
+    background-color: blue; /* Синяя рамка */
+    color: white; /* Белый текст */
+    padding: 15px 30px;
+    margin: 0 15px; /* Отступы между ссылками */
+    text-decoration: none; /* Убираем подчеркивание */
+    border: 2px solid blue; /* Синяя рамка */
+    border-radius: 5px; /* Закругленные углы */
+    transition: background-color 0.3s; /* Плавный переход для фона */
+}
+
+.link:hover {
+    background-color: darkblue; /* Темно-синий фон при наведении */
+}
